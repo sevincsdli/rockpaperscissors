@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:4rem;
+    margin-top:10rem;
+    justify-content: center;
+}
+.header-section{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    gap:3rem;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}
+button{
+ background-color: blue;
+    color:white;
+    border:none;
+    font-size:1rem;
+    border-radius:0.7rem;
+    padding:0.5rem 1.5rem;
+}
+.user-header,.computer-header{
+    text-align: center;
+    font-size:1.5rem;
+    color:darkblue;
+}
+#userChoice,#computerChoice{
+    margin-top:1rem;
+    font-size:1.5rem;
+    color:rgb(15, 15, 37);
+}
+#message{
+    font-size:1.4rem;
+}
